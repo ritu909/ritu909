@@ -1,0 +1,279 @@
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <head>
+        <title>coffee shop || myonline Coffee shope.</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            #navbar
+            {
+                background-color: black;
+               
+            }
+            #navbar::before 
+            {
+                    position:relative;
+                    content: "";
+                    opacity:0;
+                    z-index: 1;
+                   
+            }
+           
+            ul
+            {
+                display:flex;
+                float:left;
+                justify-content: center;
+
+            }
+           #navbar ul li a
+            {
+                border-radius: 20px;
+                display:block;
+                padding:2px 26px;
+                color:white;
+                display:block;
+                
+            }
+            ul
+            {
+                margin-top:20px;
+                margin-left:50px;
+                list-style: none;
+                position: absolute;
+
+
+            }
+          #navbar ul li a:hover
+            {
+                background-color:white;
+                color:black;
+                text-decoration: none;
+                
+             }
+             .div_1 img{
+                margin-top:10px;
+             }
+             /*section*/
+             #container
+             {
+               background: url('bg1.jpg');
+                text-align: center;
+                justify-content: center;
+                padding:20px 30px;
+                height:40%;
+
+              
+                
+             }
+             .box
+             {
+                display:flex;
+               
+             }
+             .box1
+             {
+               border-radius: 20px;
+                border:1px solid;
+                margin-left:10px;
+                display:block;
+                justify-content: center;
+                
+             }
+             
+             .box2
+             {
+                margin-left:10px;
+                border-radius: 20px;
+                border:1px solid;
+                 display: block;
+                justify-content: center;
+             }
+             .box3
+             {
+                margin-left:10px;
+                border-radius: 20px;
+                border:1px solid;
+               display: block;
+                justify-content: center;
+             }
+             .box p{
+                padding:1px 20px;
+             }
+             .box1 img{
+                
+                margin-top: 30px;
+                margin-left:100px;
+                
+             }
+             .box2 img{
+                
+                margin-top: 30px;
+                margin-left:100px;
+                
+             }
+             .box3 img{
+                
+               margin-top: 30px;
+                margin-left:100px;
+                
+             }
+             .box1 button
+             {
+                margin-bottom:6px;
+                margin-left: 150px;
+             }
+             .box2 button
+             {
+                margin-bottom:6px;
+                margin-left: 150px;
+             }
+             .box3 button
+             {
+                margin-bottom:6px;
+                margin-left: 150px;
+          }
+             .box4
+             {
+                background: url('socialmedia.png');
+                padding:20px 30px;
+                height:40%;
+                width:100%;
+                display:flex;
+             }
+             .box5 img{
+                margin-left:40px;
+                margin-top:40px;
+                position:relative;
+                
+             }
+             .box6 img{
+                margin-left:40px;
+                margin-top:40px;
+                position:relative;
+                
+             }
+             .box7 img{
+                margin-left:40px;
+                margin-top:40px;
+                position:relative;
+                
+             }
+             .box5 img:hover{
+               content: "";
+               opacity: 0.5;
+             }
+             .box6 img:hover{
+                content: "";
+               opacity: 0.5;
+             }
+             .box7 img:hover{
+                content: "";
+               opacity: 0.5;
+             }
+             @media only screen and (min-width : 320px) and (max-width : 480px)
+              {
+                body 
+                {
+                     width: 320px;
+                }
+                
+                }
+        </style>
+    </head>
+    <body>
+    
+    <nav id="navbar" style="display: flex;" height="100px">
+        <div class="div_1">
+            <img src="logoweb.png" alt="coffeshope" width="14%" height= "58%";>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">login</a></li>
+            <li><a href="#">contact Us</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+    <section id="container"  >
+       
+        <h1> welcome to our coffee shop</h1>
+        
+        <p style="color:indianred;font-weight: bolder;">coffee, beverage brewed from the roasted and ground <br>seeds of the tropical evergreen coffee plants of African origin. Coffee is one of the three most popular beverages.</p>      
+    </div>
+
+    </section>
+    <h3 style="text-align:center;justify-content: center;"> our services</h3>
+    <section>
+        
+        <div class="box ">
+            <div class="box1" style="width:40%"  >
+                <img src="hotchocolate.jpg" width="200px" height="100px" style="border-radius: 20px;">
+                <p>coffee, beverage brewed from the roasted and ground seeds of the tropical evergreen coffee</p>
+                 <button class=" btn btn-primary"> order now</button>
+            </div>
+            <div class="box2 " style="width:40%" >
+                <img src="coffe.jpg" width="200px" height="100px" style="border-radius: 20px;">
+                <p>coffee, beverage brewed from the roasted and ground seeds of the tropical evergreen coffee</p>
+                 <button class=" btn btn-primary"> order now</button>
+            </div>
+            <div class="box3 "style="width:40%"  >
+                <img src="logo1.jpg" width="200px" height="100px" style="border-radius: 20px;">
+                <p>coffee, beverage brewed from the roasted and ground seeds of the tropical evergreen coffee</p>
+                 <button class=" btn btn-primary"> order now</button>
+            </div>
+            
+            
+        </div>
+    </section>
+    <section>
+        <h2 style="text-align:center">our client</h2>
+        <div class="col-md-12 box4" >
+            <div class="col-md-4 box5">
+                <img src="microsoft1.png" width="80%" height="90">
+            </div>
+            <div class="col-md-4 box6">
+                <img src="apple.png" width="80%" height="90">
+            </div>
+            <div class="col-md-4 box7">
+                <img src="skype.png" width="80%" height="90">
+            </div>
+            
+            
+          
+
+        </div>
+
+    </section>
+    <section>
+        <h3 style="text-align:center">contact us</h3>
+        <div style="background-color: silver; width: 100%;height:85%">
+            <center>
+                <form method="post">
+                    <h5><label for="Firstname">FirstName</label></h5><br>
+                    <input type="text" style="width:50%"><br>
+                    <h5><label for="Lastname">Lastname</label></h5><br>
+                    <input type="text" style="width:50%"><br>
+                    <h5><label for="Email">Email</label></h5><br>
+                    <input type="text" style="width:50%"><br>
+                    <h5><label for="phoneNumber">phoneNumber</label></h5><br>
+                    <input type="text" style="width:50%"><br>
+                    <h5><label for="message">Message</label></h5><br>
+                    <input type="textarea"col="50" row="30" style="width:50%"><br><br>
+                    <button class="btn btn-primary btn-lg">submit your message</button>
+                    
+
+                    
+
+                </form>
+            </center>
+            <form>
+
+            </form>
+
+        </div>
+    </section>
+
+</body>
+</html>
